@@ -12,7 +12,9 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
+
     <nav className="navbar">
+      
       <div className="navbar-container">
         <h2 className="logo">MyApp</h2>
         <Hamburger isOpen={menuOpen} toggleMenu={toggleMenu} />
